@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boujelbenekhaled/blockchain-proof"
   },
   "keywords": [],
   "author": "Esteban Herrera",
@@ -19,5 +20,9 @@
     "jsreport-wkhtmltopdf": "^1.0.1",
     "pubnub": "^4.0.1",
     "rethinkdbdash": "^2.3.19"
-  }
+  },
+   "scripts": {
+    "manify": "manify server.js"
+     "start": "http-server -p 8000"
+     }
 }
